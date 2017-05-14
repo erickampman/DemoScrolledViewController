@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12120"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainViewController" customModule="ScrollSplitView" customModuleProvider="target">
+            <connections>
+                <outlet property="scrollView" destination="Adb-fo-73Y" id="3Xe-EY-Aea"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="640" height="800"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Adb-fo-73Y">
+                    <rect key="frame" x="0.0" y="0.0" width="640" height="800"/>
+                    <clipView key="contentView" id="LqG-xK-pIQ">
+                        <rect key="frame" x="1" y="1" width="623" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view translatesAutoresizingMaskIntoConstraints="NO" id="dRA-Na-KtY">
+                                <rect key="frame" x="0.0" y="0.0" width="606" height="768"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dRA-Na-KtY" secondAttribute="trailing" constant="17" id="Lds-ou-9Kr"/>
+                            <constraint firstItem="dRA-Na-KtY" firstAttribute="top" secondItem="LqG-xK-pIQ" secondAttribute="top" constant="15" id="Mqh-7A-Exk"/>
+                            <constraint firstAttribute="bottom" secondItem="dRA-Na-KtY" secondAttribute="bottom" id="NX9-nA-6Z1"/>
+                            <constraint firstItem="dRA-Na-KtY" firstAttribute="leading" secondItem="LqG-xK-pIQ" secondAttribute="leading" id="vHe-eu-iuA"/>
+                        </constraints>
+                    </clipView>
+                    <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="RRD-QU-Dtw">
+                        <rect key="frame" x="1" y="784" width="623" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="BNo-QS-xPu">
+                        <rect key="frame" x="624" y="1" width="15" height="783"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Adb-fo-73Y" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="8Oa-2w-2DV"/>
+                <constraint firstItem="Adb-fo-73Y" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="SbM-26-KRa"/>
+                <constraint firstAttribute="trailing" secondItem="Adb-fo-73Y" secondAttribute="trailing" id="pRJ-ND-i9O"/>
+                <constraint firstAttribute="bottom" secondItem="Adb-fo-73Y" secondAttribute="bottom" id="xCM-Zi-Rtk"/>
+            </constraints>
+            <point key="canvasLocation" x="204" y="-153"/>
+        </customView>
+    </objects>
+</document>

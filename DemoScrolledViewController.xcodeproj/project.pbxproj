@@ -12,6 +12,16 @@
 		E43F23001EC89A63007CE4F0 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F22FF1EC89A63007CE4F0 /* Document.swift */; };
 		E43F23021EC89A63007CE4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43F23011EC89A63007CE4F0 /* Assets.xcassets */; };
 		E43F23051EC89A63007CE4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43F23031EC89A63007CE4F0 /* Main.storyboard */; };
+		E43F230F1EC89A82007CE4F0 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F230C1EC89A82007CE4F0 /* ColorViewController.swift */; };
+		E43F23101EC89A82007CE4F0 /* ColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43F230D1EC89A82007CE4F0 /* ColorViewController.xib */; };
+		E43F23111EC89A82007CE4F0 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F230E1EC89A82007CE4F0 /* ColorView.swift */; };
+		E43F23161EC89A91007CE4F0 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F23121EC89A91007CE4F0 /* MainWindowController.swift */; };
+		E43F23171EC89A91007CE4F0 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43F23131EC89A91007CE4F0 /* MainWindowController.xib */; };
+		E43F23181EC89A91007CE4F0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F23141EC89A91007CE4F0 /* MainViewController.swift */; };
+		E43F23191EC89A91007CE4F0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43F23151EC89A91007CE4F0 /* MainViewController.xib */; };
+		E43F231C1EC89AF6007CE4F0 /* ColorsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F231A1EC89AF6007CE4F0 /* ColorsSplitViewController.swift */; };
+		E43F231D1EC89AF6007CE4F0 /* ColorsSplitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43F231B1EC89AF6007CE4F0 /* ColorsSplitViewController.xib */; };
+		E43F231F1EC89BC9007CE4F0 /* FlippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F231E1EC89BC9007CE4F0 /* FlippedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		E43F23011EC89A63007CE4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43F23041EC89A63007CE4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E43F23061EC89A63007CE4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43F230C1EC89A82007CE4F0 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		E43F230D1EC89A82007CE4F0 /* ColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorViewController.xib; sourceTree = "<group>"; };
+		E43F230E1EC89A82007CE4F0 /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		E43F23121EC89A91007CE4F0 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		E43F23131EC89A91007CE4F0 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		E43F23141EC89A91007CE4F0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E43F23151EC89A91007CE4F0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E43F231A1EC89AF6007CE4F0 /* ColorsSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsSplitViewController.swift; sourceTree = "<group>"; };
+		E43F231B1EC89AF6007CE4F0 /* ColorsSplitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorsSplitViewController.xib; sourceTree = "<group>"; };
+		E43F231E1EC89BC9007CE4F0 /* FlippedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +75,20 @@
 			isa = PBXGroup;
 			children = (
 				E43F22FB1EC89A63007CE4F0 /* AppDelegate.swift */,
-				E43F22FD1EC89A63007CE4F0 /* ViewController.swift */,
 				E43F22FF1EC89A63007CE4F0 /* Document.swift */,
-				E43F23011EC89A63007CE4F0 /* Assets.xcassets */,
+				E43F23121EC89A91007CE4F0 /* MainWindowController.swift */,
+				E43F23131EC89A91007CE4F0 /* MainWindowController.xib */,
+				E43F23141EC89A91007CE4F0 /* MainViewController.swift */,
+				E43F23151EC89A91007CE4F0 /* MainViewController.xib */,
+				E43F231A1EC89AF6007CE4F0 /* ColorsSplitViewController.swift */,
+				E43F231B1EC89AF6007CE4F0 /* ColorsSplitViewController.xib */,
+				E43F230C1EC89A82007CE4F0 /* ColorViewController.swift */,
+				E43F230D1EC89A82007CE4F0 /* ColorViewController.xib */,
+				E43F231E1EC89BC9007CE4F0 /* FlippedView.swift */,
+				E43F230E1EC89A82007CE4F0 /* ColorView.swift */,
 				E43F23031EC89A63007CE4F0 /* Main.storyboard */,
+				E43F23011EC89A63007CE4F0 /* Assets.xcassets */,
+				E43F22FD1EC89A63007CE4F0 /* ViewController.swift */,
 				E43F23061EC89A63007CE4F0 /* Info.plist */,
 			);
 			path = DemoScrolledViewController;
@@ -126,6 +156,10 @@
 			files = (
 				E43F23021EC89A63007CE4F0 /* Assets.xcassets in Resources */,
 				E43F23051EC89A63007CE4F0 /* Main.storyboard in Resources */,
+				E43F23191EC89A91007CE4F0 /* MainViewController.xib in Resources */,
+				E43F231D1EC89AF6007CE4F0 /* ColorsSplitViewController.xib in Resources */,
+				E43F23171EC89A91007CE4F0 /* MainWindowController.xib in Resources */,
+				E43F23101EC89A82007CE4F0 /* ColorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,9 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43F23181EC89A91007CE4F0 /* MainViewController.swift in Sources */,
 				E43F22FE1EC89A63007CE4F0 /* ViewController.swift in Sources */,
 				E43F22FC1EC89A63007CE4F0 /* AppDelegate.swift in Sources */,
+				E43F231F1EC89BC9007CE4F0 /* FlippedView.swift in Sources */,
+				E43F23161EC89A91007CE4F0 /* MainWindowController.swift in Sources */,
+				E43F230F1EC89A82007CE4F0 /* ColorViewController.swift in Sources */,
 				E43F23001EC89A63007CE4F0 /* Document.swift in Sources */,
+				E43F23111EC89A82007CE4F0 /* ColorView.swift in Sources */,
+				E43F231C1EC89AF6007CE4F0 /* ColorsSplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
